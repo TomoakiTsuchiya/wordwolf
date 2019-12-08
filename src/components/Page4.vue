@@ -1,11 +1,11 @@
 <template>
   <div class="form-group">
     <div v-if="!lastchance">
-      <label class="control-label">今回の人狼は...</label>
+      <label class="control-label">今回のワードウルフは...</label>
       <p>{{joker.name}}さんでした。<br>お題は...</p>
       <h1>{{joker.theme}}</h1>
       <p>でした。</p>
-      <p>ラストチャンス！<br>市民のお題を当てたら人狼の逆転勝利！</p>
+      <p>ラストチャンス！<br>市民のお題を当てたら逆転勝利！</p>
       <button class="btn btn-primary mx-2" @click="lastChallenge">ラストチャレンジ</button>
     </div>
     <div v-if="lastchance">

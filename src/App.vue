@@ -64,8 +64,8 @@ export default {
       peopleNames:[],     //人数分の名前とお題格納
       peopleTheme:'',     //お題を子コンポーネントに渡す
       viewTheme: true,    //お題表示非表示フラグ
-      theme:'',           //通常お題設定
-      joker:'',           //人狼お題設定
+      theme:'',           //市民のお題設定
+      joker:'',           //ワードウルフのお題設定
       sessionTime:'',     //話し合い時間（1人3分自動セット）
       schemas: {
         people: [         //選択できる人数設定

@@ -16,7 +16,7 @@
       </div>
       <div slot="finish">
         <h1 class="mb-3">終了！</h1>
-        <p>誰が人狼か当ててください</p>
+        <p>誰がワードウルフか当ててください</p>
         <button class="btn btn-primary mx-2" @click="nextPage">結果発表</button>
       </div>
     </countdown>
