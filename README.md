@@ -20,5 +20,10 @@ yarn build
 yarn lint
 ```
 
+### Demo
+```
+[https://tomoakttsuchiya.github.io/wordwolf/dist/](https://tomoakttsuchiya.github.io/wordwolf/dist/)
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
